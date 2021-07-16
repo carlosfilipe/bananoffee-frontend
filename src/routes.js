@@ -11,7 +11,7 @@ export default function Routes() {
   return (
     <Router>
         <Switch>
-          <Route path="/linktree">
+          <Route path="/links">
             <Linktree />
           </Route>
         </Switch>
