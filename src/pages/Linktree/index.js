@@ -33,7 +33,7 @@ export default function Linktree() {
   function renderLinks() {
     return LINKS.map((link) => {
       return (
-        <a className="link-button" href={link.url} target="_blank">
+        <a className="link-button" href={link.url} target="_blank" rel="noreferrer">
           {link.label}
         </a>
       );
