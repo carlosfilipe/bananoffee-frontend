@@ -1,0 +1,27 @@
+
+.linktree-container {
+
+  display: flex;
+  /* background-color: yellow; */
+  /* flex-grow: 1; */
+  height: 100%;
+  widht: 100%;
+  padding: 16px;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.linktree-container .link-button {
+  border: 1px solid blue;
+  text-decoration: none;
+  color: gray;
+  margin-bottom: 10px;
+  padding: 16px;
+  /* display: flex; */
+  text-align: center;
+  /* background-color: blue; */
+}
