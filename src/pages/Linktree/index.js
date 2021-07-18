@@ -1,6 +1,10 @@
 import React from "react";
 import "./styles.css";
 
+
+
+import logo from '../../assets/logo.png';
+
 export default function Linktree() {
   const LINKS = [
     {
@@ -42,7 +46,7 @@ export default function Linktree() {
 
   return (
     <div className="linktree-container">
-      <h1>Bananoffee Doceria</h1>
+      <img className="logo" src={logo}  />
 
       {renderLinks()}
       
