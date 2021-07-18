@@ -46,7 +46,7 @@ export default function Linktree() {
 
   return (
     <div className="linktree-container">
-      <img className="logo" src={logo}  />
+      <img className="logo" src={logo} alt="logo" />
 
       {renderLinks()}
       
