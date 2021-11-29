@@ -29,7 +29,7 @@ export default function Linktree() {
     },
     {
       label: "Cardápio",
-      url: "https://api.whatsapp.com/send?phone=5561982996510&text=Oiii!",
+      url: "https://drive.google.com/file/d/1n0LXyjbAsv5eSDrbopgqTjiIZRqF9thR/view?usp=drivesdk",
     },
     
   ];
